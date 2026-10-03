@@ -1,0 +1,43 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Gerät wurde bereits hinzugefügt"
+        },
+        "error": {
+            "cannot_connect": "Verbindung fehlgeschlagen",
+            "invalid_auth": "Anmeldung fehlgeschlagen",
+            "unknown": "Unerwarteter Fehler"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "password": "Passwort",
+                    "username": "Benutzername"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "reader_power": {
+                "name": "Leistung"
+            },
+            "reader_import": {
+                "name": "Zählerstand"
+            },
+            "reader_voltage": {
+                "name": "Batteriespannung"
+            },
+            "reader_battery": {
+                "name": "Batteriestand"
+            },
+            "reader_snr": {
+                "name": "Signal-Rausch-Verhältnis"
+            },
+            "reader_rssi": {
+                "name": "Empfangsleistung"
+            }
+        }
+    }
+}

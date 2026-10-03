@@ -1,0 +1,43 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Host",
+                    "password": "Password",
+                    "username": "Username"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "reader_power": {
+                "name": "Power"
+            },
+            "reader_import": {
+                "name": "Import"
+            },
+            "reader_voltage": {
+                "name": "Battery Voltage"
+            },
+            "reader_battery": {
+                "name": "Battery Level"
+            },
+            "reader_snr": {
+                "name": "Signal-Noise-Ratio"
+            },
+            "reader_rssi": {
+                "name": "Receive Signal Strength"
+            }
+        }
+    }
+}
